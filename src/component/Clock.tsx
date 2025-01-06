@@ -1,7 +1,6 @@
 import React from 'react';
 import { Props } from '../types/Props';
 import { State } from '../types/State';
-const TIME_ZONE = 0;
 
 export class Clock extends React.Component<Props, State> {
   state: State = {
